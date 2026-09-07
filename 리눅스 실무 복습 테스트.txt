@@ -1,0 +1,47 @@
+리눅스 실무 복습 테스트 
+260706
+
+📋 리눅스 실무 복습 테스트
+시나리오: 당신은 지금 서버를 관리하는 주니어 엔지니어입니다. 아래 작업을 순서대로 수행해 보세요.
+
+문제 1 (디렉토리 생성):
+/home/sysadmin/ 경로 아래에 practice라는 이름의 디렉토리를 하나 만드세요. (권한 문제가 발생한다면 sudo를 활용하세요.)
+
+문제 2 (파일 생성 및 내용 기록):
+practice 디렉토리 안으로 이동한 뒤, todo.txt라는 파일을 만들고 그 안에 Study Linux라는 문장을 기록하세요.
+
+문제 3 (복사 및 이름 변경):
+todo.txt를 todo_backup.txt로 복사하세요. 그 다음, 원본인 todo.txt의 이름을 work_list.txt로 변경하세요.
+
+문제 4 (권한 및 상세 확인):
+ls -l 명령어를 사용하여 practice 디렉토리 내부의 파일들의 권한 정보와 파일 크기, 파일명을 확인하세요.
+
+문제 5 (정리):
+실습이 끝났으니 practice 디렉토리를 포함한 모든 내용을 삭제하세요. (힌트: 디렉토리 삭제 명령어와 옵션을 떠올려 보세요!)
+
+
+/home/sysadmin/test/nth-260703/logdownloader/file/resrapi
+
+/home/sysadmin/practice/playground/logdownloader
+
+
+질문사항
+tar파일 만드는 작업이 꽤 복잡해보이고 어려움
+
+압축
+-z = gzip (gzip을 이용해 압축 또는 해제)
+
+-c = Create (새로운 아카이브 생성)
+
+-v = Verbose (처리되는 파일 목록을 화면에 출력)
+
+-f = File (결과물로 생성될 아카이브 파일의 이름 지정
+
+해제
+-z = gzip (압축 해제 도구 지정)
+
+-x = Extract (아카이브 풀기 / 추출)
+
+-v = Verbose (과정 출력)
+
+-f = File (풀어낼 대상 파일 이름 지정)
